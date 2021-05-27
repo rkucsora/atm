@@ -1,0 +1,61 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+.message {
+	text-align: center;
+	color: lightgray;
+	font-weight: bold;
+	padding: 10px;
+	display: none;
+}
+
+.allowed {
+	background-color: green;
+}
+
+.notAllowed {
+	background-color: darkred;
+}
+
+.visible {
+	display: block;
+}
+
+#inputForm {
+	margin: 0 auto;
+}
+
+input[type=number] {
+	width: 6em;
+	font-size: 16px;
+}
+
+#withdrawals {
+	margin: 0 auto;
+}
+
+#withdrawals .row {
+	padding: 3px;
+	height: 50px;
+	font-size: 14px;
+}
+#withdrawals .cell {
+	display: inline;
+	position: relative;
+	top: 50%;
+}
+#withdrawals .cell:nth-of-type(2) {
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+}
+
+#withdrawals .del {
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+}
